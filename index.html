@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>信息学院软件学院红十字会</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<meta name="author" content="dennisleung"/>
+		<meta name="discription" content="华南农业大学信息学院软件学院红十字会"/>
+		<mata name="keywords" content="华南农业大学,信息学院,软件学院,红十字会,小馨"></mata>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="dist/css/redcross.css">
+		<script src="js/tests/vendor/jquery.js"></script>
+		<script src="dist/js/bootstrap.min.js"></script>
+		<script src="dist/js/redcross.js"></script>
+		<link rel="shortcut icon" href="icon.jpg">
+	</head>
+	<body>
+ 		<!--navigation-->
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				 	</button>
+				 	<a class="navbar-brand" href="#">
+				 		<img src="logo1.png">
+				 	</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">首页</a></li>
+						<li><a href="#">资讯</a></li>
+						<li><a href="#">Activity</a></li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Credit Search</a></li>
+								<li><a href="#">Calendar</a></li>
+								<li class="divider"></li>
+								<li><a href="#">web Photoshop</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Help</a></li>
+					</ul>
+					<span class="text-muted navbar-right visible-desktop" href="#"><h3>信息学院软件学院红十字会</h3></span>
+				</div>
+			</div>
+		</div>
+
+
+		<!--carousel-->
+		<div id="mycarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#mycarousel" data-slide-to="1"></li>
+				<li data-target="#mycarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/1.jpg" alt="pic1">
+					<div class="carousel-caption">
+						<h3>Hello World!</h3>
+						<p>This is the first picture in Carousel!</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/2.jpg" alt="pic2">
+					<div class="carousel-caption">
+						<h3>Hey Man!</h3>
+						<p>This is the second picture in Carousel,I hope you wll enjoy it!</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/3.jpg" alt="pic3">
+					<div class="carousel-caption">
+						<h3>Nice to see U!</h3>
+						<p>We will have a party in Firday evening,please come and enjoy it!</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control left" data-target="#mycarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="carousel-control right" data-target="#mycarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+
+
+		<!--news-list-->
+		<div class="row" id="info-panel">
+			<div class="col-md-6" id="title-panel">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#information" data-toggle="tab">Information</a></li>
+					<li><a href="#news" data-toggle="tab">News</a></li>
+					<li><a href="#activity" data-toggle="tab">Activity</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="information">
+						<ul class="nav nav-list">
+							<li class="active"><a href="#detail-panel" num="0">This is the first Information!</a></li>
+							<li><a href="#detail-panel" num="1">This is the second Information!</a></li>
+							<li><a href="#detail-panel" num="2">This is the third Information!</a></li>
+							<li><a href="#detail-panel" num="3">This is the forth Information!</a></li>
+							<li><a href="#detail-panel" num="4">This is the fifth Information!</a></li>
+							<li><a href="#detail-panel" num="5">This is the sixth Information!</a></li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="news">
+						<ul class="nav nav-list">
+							<li class="active"><a href="#detail-panel" num="6">This is the first news!</a></li>
+							<li><a href="#detail-panel" num="7">This is the second news!</a></li>
+							<li><a href="#detail-panel" num="8">This is the third news!</a></li>
+							<li><a href="#detail-panel" num="9">This is the forth news!</a></li>
+							<li><a href="#detail-panel" num="10">This is the fifth news!</a></li>
+							<li><a href="#detail-panel" num="11">This is the sixth news!</a></li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="activity">
+						<ul class="nav nav-list">
+							<li class="active"><a href="#detail-panel" num="12">This is the first activity!</a></li>
+							<li><a href="#detail-panel" num="13">This is the second activity!</a></li>
+							<li><a href="#detail-panel" num="14">This is the third activity!</a></li>
+							<li><a href="#detail-panel" num="15">This is the forth activity!</a></li>
+							<li><a href="#detail-panel" num="16">This is the fifth activity!</a></li>
+							<li><a href="#detail-panel" num="17">This is the sixth activity!</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 thumbnail" id="detail-panel">
+				<div class="detail-header">
+					<img class="img-rounded" src="img/1.jpg">
+					<div class="vertical-divider">&nbsp;</div>
+					<a class="btn btn-primary" href="#">View more&nbsp;&raquo;</a>
+				</div>
+				<hr>
+				<div class="detail-caption">
+				&nbsp;&nbsp;&nbsp;&nbsp;The white snow mounted in moutain night,not a foot print to be seen.I don't want the isolation,let them see that.Let it go,the coat never border me any more.
+				<p><a href="#">View more&nbsp;&raquo;</a></p>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<h4 class="text-muted">&copy;华南农业大学  信息学院 软件学院红十字会&nbsp;&nbsp;&nbsp;&nbsp;designed by DennisLeung</h4>
+		</footer>
+		<div class="triangle">
+  			<div class="fore"></div>
+  			<div class="back"></div>
+		</div>
+	</body>
+</html>
